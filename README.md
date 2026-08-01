@@ -18,6 +18,8 @@ The script makes a backup of the target file (path + `.bak`) before writing chan
 
 - Python 3.x (recommended 3.7+)
 - No third-party dependencies
+- Asphalt 9: Legends 1.2.1 Leia version
+- A9-business.gdb file of Asphalt 9: Legends 1.2.1 Leia version (`/assets/main/business-logic/A9-business.gdb`)
 
 ## Usage
 
