@@ -19,7 +19,7 @@ The script makes a backup of the target file (path + `.bak`) before writing chan
 - Python 3.x (recommended 3.7+)
 - No third-party dependencies
 - Asphalt 9: Legends 1.2.1 Leia version
-- A9-business.gdb file of Asphalt 9: Legends 1.2.1 Leia version (`/assets/main/business-logic/A9-business.gdb`)
+- A9-business.gdb file of the above Leia version (available at `/assets/main/business-logic/A9-business.gdb`)
 
 ## Usage
 
@@ -90,11 +90,6 @@ This sets the `flag` to 99999, `diff` to 0.1, and all detected rank fields to 50
 - The script uses `struct.unpack_from` / `struct.pack_into` to read and write binary values in-place.
 - Before writing changes the script copies the original file to `path + '.bak'`.
 
-## Recommended improvements
-
-- Add argparse for clearer CLI, validation, and `--dry-run` support.
-- Add a `--verbose` flag or a JSON output option for machine-readable listings.
-- Provide a tiny sample binary (or a generator) for safe testing.
 
 ## License
 
