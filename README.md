@@ -74,7 +74,7 @@ Apply the same value(s) to all detected levels. Use the optional parameters `--f
 python3 gdb_patch.py all path/to/career.gdb [--flag <int>] [--diff <float>] [--rank <int>]
 ```
 
-Example — batch update all levels (your requested example):
+Example — batch update all levels:
 
 ```bash
 python3 gdb_patch.py all A9-business.gdb --flag 99999 --diff 0.1 --rank 5000
