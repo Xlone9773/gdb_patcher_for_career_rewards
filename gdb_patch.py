@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""A9 GDB 修改器 v6：旗帜 + 排名（256倍数过滤 + 宽松匹配）"""
+#gdb_patcher_for_career_rewards - Version 6.0
+#Automated binary structure discovery and patch tool for legacy GDB local reward tables (v1.2.1).
+#Employs signature scanning, float unpack verification, and padding filtering (256-multipliers constraint).
 import sys, struct, shutil
 
 def scan(data):
